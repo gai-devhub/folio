@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="tile" x1="35" y1="31" x2="125" y2="128" gradientUnits="userSpaceOnUse"><stop stop-color="#F8FFF6"/><stop offset="1" stop-color="#B9F0C5"/></linearGradient>
+    <linearGradient id="green" x1="40" y1="66" x2="120" y2="101" gradientUnits="userSpaceOnUse"><stop stop-color="#8EE3AA"/><stop offset=".55" stop-color="#087A3D"/><stop offset="1" stop-color="#00552B"/></linearGradient>
+    <filter id="shadow" x="14" y="15" width="136" height="137" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <rect x="29" y="27" width="48" height="48" rx="13" fill="#063A20" opacity=".25" filter="url(#shadow)"/>
+  <rect x="84" y="27" width="48" height="48" rx="13" fill="#063A20" opacity=".25" filter="url(#shadow)"/>
+  <rect x="29" y="84" width="48" height="48" rx="13" fill="#063A20" opacity=".25" filter="url(#shadow)"/>
+  <rect x="84" y="84" width="48" height="48" rx="13" fill="#063A20" opacity=".25" filter="url(#shadow)"/>
+  <g>
+    <rect x="24" y="22" width="48" height="48" rx="13" fill="url(#tile)" stroke="#F4FFF3" stroke-width="2"/>
+    <path d="M24 49c8-10 15-14 26-14h22v14H50c-6 0-11 3-17 8l-9 8V49Z" fill="url(#green)"/>
+    <rect x="80" y="22" width="48" height="48" rx="13" fill="url(#tile)" stroke="#F4FFF3" stroke-width="2"/>
+    <path d="M80 49c8-10 15-14 26-14h22v14h-22c-6 0-11 3-17 8l-9 8V49Z" fill="url(#green)"/>
+    <rect x="24" y="78" width="48" height="48" rx="13" fill="url(#tile)" stroke="#F4FFF3" stroke-width="2"/>
+    <path d="M24 105c8-10 15-14 26-14h22v14H50c-6 0-11 3-17 8l-9 8v-16Z" fill="url(#green)"/>
+    <rect x="80" y="78" width="48" height="48" rx="13" fill="url(#tile)" stroke="#F4FFF3" stroke-width="2"/>
+    <path d="M80 105c8-10 15-14 26-14h22v14h-22c-6 0-11 3-17 8l-9 8v-16Z" fill="url(#green)"/>
+  </g>
+</svg>

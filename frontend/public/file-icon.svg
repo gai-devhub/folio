@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="paper" x1="39" y1="19" x2="126" y2="145" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FFF6"/>
+      <stop offset="1" stop-color="#B9F0C5"/>
+    </linearGradient>
+    <linearGradient id="fold" x1="99" y1="22" x2="128" y2="53" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E5FBE7"/>
+      <stop offset="1" stop-color="#9BE4AE"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="39" y1="78" x2="125" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8EE3AA"/>
+      <stop offset=".52" stop-color="#087A3D"/>
+      <stop offset="1" stop-color="#00552B"/>
+    </linearGradient>
+    <filter id="shadow" x="13" y="9" width="142" height="151" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <clipPath id="page">
+      <path d="M45 20h49l32 32v79a9 9 0 0 1-9 9H45a9 9 0 0 1-9-9V29a9 9 0 0 1 9-9Z"/>
+    </clipPath>
+  </defs>
+  <path d="M45 25h49l32 32v79a9 9 0 0 1-9 9H45a9 9 0 0 1-9-9V34a9 9 0 0 1 9-9Z" fill="#063A20" opacity=".3" filter="url(#shadow)"/>
+  <path d="M45 20h49l32 32v79a9 9 0 0 1-9 9H45a9 9 0 0 1-9-9V29a9 9 0 0 1 9-9Z" fill="url(#paper)"/>
+  <path d="M94 20v23a9 9 0 0 0 9 9h23L94 20Z" fill="url(#fold)"/>
+  <path d="M94 20v23a9 9 0 0 0 9 9h23" stroke="#E6FFEA" stroke-width="2" stroke-linejoin="round"/>
+  <g clip-path="url(#page)">
+    <path d="M30 88c15-22 31-32 54-32h45v24H87c-11 0-20 5-31 15l-26 24V88Z" fill="url(#ribbon)"/>
+    <path d="M30 121 61 92c11-10 20-15 31-15h37v53H30v-9Z" fill="#E5FFEA" opacity=".78"/>
+  </g>
+  <path d="M45 20h49l32 32v79a9 9 0 0 1-9 9H45a9 9 0 0 1-9-9V29a9 9 0 0 1 9-9Z" stroke="#F4FFF3" stroke-width="2"/>
+</svg>

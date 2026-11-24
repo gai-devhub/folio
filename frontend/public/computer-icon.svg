@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="screen" x1="35" y1="30" x2="127" y2="116" gradientUnits="userSpaceOnUse"><stop stop-color="#F8FFF6"/><stop offset="1" stop-color="#B9F0C5"/></linearGradient>
+    <linearGradient id="ribbon" x1="31" y1="70" x2="130" y2="95" gradientUnits="userSpaceOnUse"><stop stop-color="#8EE3AA"/><stop offset=".52" stop-color="#087A3D"/><stop offset="1" stop-color="#00552B"/></linearGradient>
+    <linearGradient id="base" x1="53" y1="124" x2="107" y2="148" gradientUnits="userSpaceOnUse"><stop stop-color="#EFFFF0"/><stop offset="1" stop-color="#9ADDAA"/></linearGradient>
+    <filter id="shadow" x="12" y="15" width="140" height="140" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="6"/></filter>
+    <clipPath id="screen-clip"><rect x="25" y="24" width="110" height="86" rx="15"/></clipPath>
+  </defs>
+  <rect x="30" y="31" width="110" height="86" rx="15" fill="#063A20" opacity=".28" filter="url(#shadow)"/>
+  <rect x="25" y="24" width="110" height="86" rx="15" fill="url(#screen)"/>
+  <g clip-path="url(#screen-clip)">
+    <path d="M17 77c18-24 37-35 64-35h66v27H82c-14 0-26 6-41 19L17 99V77Z" fill="url(#ribbon)"/>
+    <path d="m19 102 22-19c15-13 27-19 41-19h65v48H19v-10Z" fill="#E5FFEA" opacity=".8"/>
+  </g>
+  <rect x="25" y="24" width="110" height="86" rx="15" stroke="#F4FFF3" stroke-width="2"/>
+  <path d="M70 111h20v15H70z" fill="#A8EABC"/>
+  <path d="M59 125h42l12 13a5 5 0 0 1-4 8H50a5 5 0 0 1-4-8l13-13Z" fill="url(#base)"/>
+  <path d="M59 125h42" stroke="#F4FFF3" stroke-width="2" stroke-linecap="round"/>
+</svg>

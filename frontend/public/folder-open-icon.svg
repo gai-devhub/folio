@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="back" x1="36" y1="29" x2="126" y2="125" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FFF6"/>
+      <stop offset="1" stop-color="#B9F0C5"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="31" y1="76" x2="137" y2="99" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8EE3AA"/>
+      <stop offset=".52" stop-color="#087A3D"/>
+      <stop offset="1" stop-color="#00552B"/>
+    </linearGradient>
+    <linearGradient id="front" x1="52" y1="83" x2="111" y2="144" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FFF1"/>
+      <stop offset="1" stop-color="#A8EABC"/>
+    </linearGradient>
+    <filter id="shadow" x="10" y="15" width="145" height="139" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <clipPath id="folder">
+      <path d="M21 48a10 10 0 0 1 10-10h31l13 14h53a10 10 0 0 1 10 10v57a11 11 0 0 1-11 11H32a11 11 0 0 1-11-11V48Z"/>
+    </clipPath>
+  </defs>
+  <path d="M26 54a10 10 0 0 1 10-10h28l13 14h49a10 10 0 0 1 10 10v49a11 11 0 0 1-11 11H37a11 11 0 0 1-11-11V54Z" fill="#063A20" opacity=".28" filter="url(#shadow)"/>
+  <path d="M21 48a10 10 0 0 1 10-10h31l13 14h53a10 10 0 0 1 10 10v57a11 11 0 0 1-11 11H32a11 11 0 0 1-11-11V48Z" fill="url(#back)"/>
+  <g clip-path="url(#folder)">
+    <path d="M18 101c20-25 40-37 68-37h62v28H88c-15 0-27 6-42 19l-28 25v-35Z" fill="url(#ribbon)"/>
+    <path d="M16 138 48 111c15-13 27-19 42-19h64v51H16v-5Z" fill="#E4FFEA" opacity=".82"/>
+  </g>
+  <path d="m20 81 106-6a10 10 0 0 1 11 10l6 39a10 10 0 0 1-9 11L33 147a10 10 0 0 1-11-9l-9-45a10 10 0 0 1 7-12Z" fill="url(#front)" stroke="#F4FFF3" stroke-width="2"/>
+  <path d="m20 81 106-6a10 10 0 0 1 11 10l1 7-64 1c-14 0-26 5-41 17l-20 15-3-28a10 10 0 0 1 10-16Z" fill="#F5FFF3" opacity=".58"/>
+</svg>

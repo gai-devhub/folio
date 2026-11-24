@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+dist/
+.next/
+.next-dev/
+.vercel/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Caches and build artifacts
+.mypy_cache/
+.pytest_cache/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+backend/__pycache__/
+backend/**/__pycache__/
+
+# Application runtime storage
+backend/organized_archives/
+backend/thumbnails/
+
+# OS and Editor files
+.DS_Store
+*/.DS_Store
+Thumbs.db
+.vscode/
+.idea/
